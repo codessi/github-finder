@@ -17,14 +17,14 @@ function App() {
   // search/users?q=johan  [x]
   // header-limit  10 per min   [x]
   // to change create token
-  // go to  setting on my account github []
-  // dev setting -> personal access token  []
-  // click user generalte token  []
-  // postman => authorization => bearer token  []
-  // react -> .env create -> REACT_APP_GITHUB_TOKE  []
-  // REACT_APP_GITHUB_URL= "https://api.github.com"  []
-  // goto home.js  []
-  // {process.env.REACT_APP.....}  []
+  // go to  setting on my account github [x]
+  // dev setting -> personal access token  [x]
+  // click user generalte token  [x]
+  // postman => authorization => bearer token  [x]
+  // react -> .env create -> REACT_APP_GITHUB_TOKE  [x]
+  // REACT_APP_GITHUB_URL= "https://api.github.com"  [x]
+  // goto home.js  [x]
+  // {process.env.REACT_APP.....}  [x]
 
   return (
     <Router>
