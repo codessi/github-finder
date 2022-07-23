@@ -5,15 +5,15 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/layout/Footer";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
-import Home
-  from "./pages/Home";
+import Home from "./pages/Home";
+
 
 function App() {
-   // spinner
+  // spinner
   // create in lay out assets
   // create spinner.jsx part of layout
   // import spinner image
-  //  class w-100 mt-20
+  //  class w-100 mt-20  make width 400px margin top 80px
   // img width={180} class text-center mx-auto src={spinner} alt="loading "
   // goto result
   return (
@@ -28,7 +28,7 @@ function App() {
             <Route path="/*" element={<NotFound />} />
           </Routes>
         </main>
-        <Footer /> 
+        <Footer />
       </div>
     </Router>
   );
