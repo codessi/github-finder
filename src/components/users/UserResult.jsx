@@ -4,6 +4,8 @@ const UserResult = () => {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  // import replace loading
+
   useEffect(() => {
     fetchUsers();
   }, []);

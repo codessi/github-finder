@@ -9,17 +9,13 @@ import Home
   from "./pages/Home";
 
 function App() {
-   // create folder users im component  []
-  //  UserResults.jsx  [x]
-  // goto home.js  [x]
-  // import UserResult  [x]
-  // insert in jsx - in fragment  [x]
-// go to UserResult
-  //  useEffect  []
-  // make fetchUsers asyn  []
-  // hint  /users  []
-  // google get with Autorization  []
-  // 
+   // spinner
+  // create in lay out assets
+  // create spinner.jsx part of layout
+  // import spinner image
+  //  class w-100 mt-20
+  // img width={180} class text-center mx-auto src={spinner} alt="loading "
+  // goto result
   return (
     <Router>
       <div className="flex flex-col justify-between h-screen  bg-gray-700 text-primary-content footer-center">
