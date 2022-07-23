@@ -9,23 +9,17 @@ import Home
   from "./pages/Home";
 
 function App() {
-    // open up  github docs resource rest api  [x]
- // goto post man  [x]
-
-  // / users on postman  [x]
-  // users/myanme  [x]
-  // search/users?q=johan  [x]
-  // header-limit  10 per min   [x]
-  // to change create token
-  // go to  setting on my account github [x]
-  // dev setting -> personal access token  [x]
-  // click user generalte token  [x]
-  // postman => authorization => bearer token  [x]
-  // react -> .env create -> REACT_APP_GITHUB_TOKE  [x]
-  // REACT_APP_GITHUB_URL= "https://api.github.com"  [x]
+   // create folder users im component  []
+  //  UserResults.jsx  [x]
   // goto home.js  [x]
-  // {process.env.REACT_APP.....}  [x]
-
+  // import UserResult  [x]
+  // insert in jsx - in fragment  [x]
+// go to UserResult
+  //  useEffect  []
+  // make fetchUsers asyn  []
+  // hint  /users  []
+  // google get with Autorization  []
+  // 
   return (
     <Router>
       <div className="flex flex-col justify-between h-screen  bg-gray-700 text-primary-content footer-center">
