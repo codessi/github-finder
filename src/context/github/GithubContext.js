@@ -14,6 +14,7 @@ export const GithubProvider = ({ children }) => {
   const [state, dispatch] = useReducer(githubReducer, initialState)
 
   const fetchUsers = async () => {
+
     const response = await fetch(`${process.env.REACT_APP_GITHUB_URL}/users`, {
       headers: { Authorization: `token ${process.env.REACT_APP_GITHUB_TOKEN}` },
     });
@@ -24,6 +25,8 @@ export const GithubProvider = ({ children }) => {
       payload: data
     })
   };
+
+  
 
   return (
     <GithubContext.Provider value={{

@@ -9,29 +9,15 @@ import Home from "./pages/Home";
 import { GithubProvider } from "./context/github/GithubContext";
 
 function App() {
-// reducer   tke two cureatate and action 
-// create newfile GithubReducer.js inside github folder  []
-  // goto file create arrow function called githubReducer pass state and action  []
-  // switch(action.type) {}  []
-  // default:  []
-  // return state  []
-  // export default githubReducer  []
-  // goto context  []
-  //useReducer instead of useState  []
-  // import githubReducer  []
-  // delete state  []
-  // create const initialState assign object  key users value empty arry  key loading true  []
-  //create array const with state and  dispatch  assign useReducer hook passing githubReducer[] and initialState  []
-  // delete setStates  []
-  // insert dispatch() pass object add key type: value "GET_USERS"  []
-  // goto reduser.js  []
-  // insert case case "GET_USERS":  return {}  ...state  []
-  // goto context.js  []
-  // inside dipatch insert payload: data,  []
-  // goto reducers.js  []
-  // insert after...state,   users: action.payload, loading: false,  []
-  // goto context.js  []
-  // add value   users: state.users, loading: state.loading,   []
+  // goto result and commen out fetch from effect  []
+  // loading to false on context js  []
+  // goto reducer  add case "SET_LOADING"  []
+  // return {}  with ...state and loading true  []
+  // go to context create function above jsx  []
+  // setLoading dispatch object type key  "SET_LOADING"  []
+  // call the set loading inside of fetchUsers  []
+  // uncomment fetchUsers inside effect  []
+  // delete useEffect in result  []
 
   return (
     <GithubProvider>

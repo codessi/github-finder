@@ -8,7 +8,7 @@ const UserResult = () => {
 
 
   useEffect(() => {
-    fetchUsers();
+    // fetchUsers();
   }, []);
 
   
