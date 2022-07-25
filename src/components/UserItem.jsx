@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom"
-const UserItem = ({ users: { login, avatar_url } }) => {
+const UserItem = ({ user: { login, avatar_url } }) => {
   return (
     <div className="card shadow-md compact side bg-base-100">
       <div className="flex-row item-center text-black space-x-4 card-body">
