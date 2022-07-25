@@ -9,19 +9,29 @@ import Home from "./pages/Home";
 import { GithubProvider } from "./context/github/GithubContext";
 
 function App() {
-  // goto result and commen out fetch from effect  [x]
-  // loading to false on context js  [x]
-  // goto reducer  add case "SET_LOADING"  [x]
-  // return {}  with ...state and loading true  [x]
-  // go to context create function above jsx setLoading dispatch object type key  "SET_LOADING"  [x]
-  // call the set loading inside of fetchUsers  [x]
-  // uncomment fetchUsers inside effect  [x]
-  // delete useEffect in result  [x]
+ 
+//gt search
+  // import useState   []
+  // inside function text state default  ""  []
+  // add value to input text state  []
+  // onChange handle change  []
+  // make handleChange  []
+  // set text to the target value  []
+  // check on dev tool component  []
+  // add onsubmit on form tag  []
+  // create handleSubmit  []
+  // prevent default  []
+  // if text is blank alert('Plase enter someting) else comment todo search users  set text to reset ""  []
+  // import useContext   GithubContext  []
+  // bringing in users from context  []
+  // above parent of button  []
+  // jsx js if user length is bigger than 0 put button tage in ()  []
+  // 
 
   return (
     <GithubProvider>
       <Router>
-        <div className="flex flex-col justify-between h-screen  bg-gray-700 text-primary-content footer-center">
+        <div className="flex flex-col justify-between h-screen  bg-gray-700 text-primary-content ">
           <Navbar />
           <main className="container mx-auto px-3 pb-12">
             <Routes>
