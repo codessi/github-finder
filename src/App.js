@@ -9,23 +9,7 @@ import Home from "./pages/Home";
 import { GithubProvider } from "./context/github/GithubContext";
 
 function App() {
- 
-//gt search
-  // import useState   []
-  // inside function text state default  ""  [x]
-  // add value to input text state  [x]
-  // onChange handle change  [x]
-  // make handleChange  [x]
-  // set text to the target value  [x]
-  // check on dev tool component  [x]
-  // add onsubmit on form tag  [x]
-  // create handleSubmit  [x]
-  // prevent default  [x]
-  // if text is blank alert('Plase enter someting) else comment todo search users  set text to reset ""  [x]
-  // import useContext   GithubContext  [x]
-  // bringing in users from context  [x]
-  // above parent of button  [x]
-  // jsx js if user length is bigger than 0 put button tage in ()  []
+ // gt context
   // 
 
   return (
