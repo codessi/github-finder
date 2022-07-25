@@ -9,15 +9,14 @@ import Home from "./pages/Home";
 import { GithubProvider } from "./context/github/GithubContext";
 
 function App() {
-  // goto result and commen out fetch from effect  []
-  // loading to false on context js  []
-  // goto reducer  add case "SET_LOADING"  []
-  // return {}  with ...state and loading true  []
-  // go to context create function above jsx  []
-  // setLoading dispatch object type key  "SET_LOADING"  []
-  // call the set loading inside of fetchUsers  []
-  // uncomment fetchUsers inside effect  []
-  // delete useEffect in result  []
+  // goto result and commen out fetch from effect  [x]
+  // loading to false on context js  [x]
+  // goto reducer  add case "SET_LOADING"  [x]
+  // return {}  with ...state and loading true  [x]
+  // go to context create function above jsx setLoading dispatch object type key  "SET_LOADING"  [x]
+  // call the set loading inside of fetchUsers  [x]
+  // uncomment fetchUsers inside effect  [x]
+  // delete useEffect in result  [x]
 
   return (
     <GithubProvider>
