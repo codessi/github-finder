@@ -9,8 +9,21 @@ import Home from "./pages/Home";
 import { GithubProvider } from "./context/github/GithubContext";
 
 function App() {
- // gt context
-  // 
+  //  ** search users **
+ // gt context  []
+  // change fetchUsers to seachUsers   []
+  // create param assing to new URLSearachParams() pass object with q: text  []
+  // change fetch point /search/users?${params}  []
+
+  // change data to destucted object items  []
+
+  // dispatch payload items instead of data  []
+
+  // change the provider value fetchUsers to searchUsers  []
+  // gt search jsx pass in context searachUsers  []
+  // inside of handleSubmit add call serachUsers pass text  []
+  // should show   []
+
 
   return (
     <GithubProvider>
