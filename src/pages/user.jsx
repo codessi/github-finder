@@ -4,21 +4,21 @@ import { useParams } from "react-router-dom";
 import { FaCodepen, FaStore, FaUserFriends, FaUsers } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Spinner from "../components/layout/Spinner";
-
+ 
 const User = () => {
   const { getUser, user, loading } = useContext(GithubContext);
   const params = useParams();
-
+ 
   useEffect(() => {
     getUser(params.login);
   }, []);
-
-
+ 
+ 
   if (loading) {
     return <Spinner />;
   }
-
-
+  if (user) {
+ 
   const {
     login,
     id,
@@ -58,7 +58,7 @@ const User = () => {
     created_at,
   } = user;
   return <>
-
+ 
     <div className="w-full mx-auto lg2:w-10/12">
       <div className="mb-4">
         <Link to="/" className="btn btn-ghost">
@@ -76,7 +76,8 @@ const User = () => {
       </div>
     </div>
   </>
-
+      }
 };
-
+ 
 export default User;
+ 
