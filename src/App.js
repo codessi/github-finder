@@ -9,43 +9,42 @@ import Home from "./pages/Home";
 import { GithubProvider } from "./context/github/GithubContext";
 import { AlertProvider } from "./context/alert/AlertContext";
 import Alert from "./components/layout/Alert";
+import User from "./pages/User";
 
 function App() {
-// gt userItem.js []
-  // change link users to user   []
-  // click on visit profile on browser   []
-  //gt appjs   []
-  // insert  route componet user   []
-  // path user/:login   []
-  // check on browser   []
-  // gt Githubcontext   []
-  // add value user: state.user   []
-  // copy search user   []
-  // change to single user   []
-  // pass login   []
-  // setloading to true ??   []
-  // delete params   []
-  // change enpoint /users/${login}   []
-  // add after response   []
-  // if response.status =-- 404 then window.location = '/notfound'   []
-  // else {}  isert rest in   []
-  // reaplce items to data   []
-  // dispatch change users to user and item to data   []
-  // gt github reducer   []
-  // add case "GET_USER"   []
-  // return {...state,user: action.payload, loading: false}   []
+// gt userItem.js [x]
+  // change link users to user   [x]
+  // click on visit profile on browser   [x]
+  //gt appjs   [x]
+  // insert  route componet user   [x]
+  // path user/:login   [x]
+  // check on browser   [x]
+  // gt Githubcontext   [x]
+  // add value user: state.user   [x]
+  // copy search user   [x]
+  // change to single user   [x]
+  // pass login   [x]
+  // delete params   [x]
+  // change enpoint /users/${login}   [x]
+  // add after response,  if response.status =-- 404 then window.location = '/notfound'   [x]
+  // else {}  isert rest in   [x]
+  // reaplce items to data   [x]
+  // dispatch change users to user and item to data   [x]
+  // gt github reducer   [x]
+  // add case "GET_USER"   [x]
+  // return {...state,user: action.payload, loading: false}   [x]
   // gt context   []
-  // add value of getUser   []
-  // gt user.jsx   []
-  // effect context ghcontext  import   []
-  // getuser, user from context   []
-  // useEffect take in getUser() pass params.login   []
+  // add value of getUser   [x]
+  // gt user.jsx   [x]
+  // effect context ghcontext  import   [x]
+  // getuser, user from context   [x]
+  // useEffect take in getUser() pass params.login   [x]
   // ** router provides match  
-  // import useParam  from react-router-dom   []
-  // create params = useParams()   []
-  // check devtool gitub provider   []
-  // check state   []
-  // insert user.login on jsx    []
+  // import useParam  from react-router-dom   [x]
+  // create params = useParams()   [x]
+  // check devtool gitub provider   [x]
+  // check state   [x]
+  // insert user.login on jsx    [x]
 
 
   return (
@@ -60,6 +59,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/" element={<NotFound />} />
+                <Route path="/user/:login" element={<User /> } />
                 <Route path="/*" element={<NotFound />} />
               </Routes>
             </main>

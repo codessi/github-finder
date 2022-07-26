@@ -42,6 +42,27 @@ export const GithubProvider = ({ children }) => {
     })
   }
 
+  const getUser = async (login) => {
+
+    setLoading()
+
+    const response = await fetch(`${process.env.REACT_APP_GITHUB_URL}/users/${login}`, {
+      headers: { Authorization: `token ${process.env.REACT_APP_GITHUB_TOKEN}` },
+    });
+    if (response.status === 404) {
+      window.location('/notfound')
+    } else {
+
+    const data = await response.json();
+    
+    dispatch({
+      type: "GET_USER",
+      payload: data
+    })
+    }
+
+  };
+
 
 
 
@@ -52,6 +73,8 @@ export const GithubProvider = ({ children }) => {
       loading: state.loading,
       searchUsers,
       clearUsers,
+      user: state.user,
+      getUser,
      
     }}>
       {children}
