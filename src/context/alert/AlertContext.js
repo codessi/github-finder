@@ -9,7 +9,7 @@ export const AlertProvider = ({ children }) => {
   const [state, dispatch] = useReducer(alertReducer, initialState)
 
   const setAlert = (msg, type) => {
-    // payload is an object -shorthanded- 
+    
     dispatch({
       type: "SET_ALERT",
       payload: {

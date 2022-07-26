@@ -11,26 +11,42 @@ import { AlertProvider } from "./context/alert/AlertContext";
 import Alert from "./components/layout/Alert";
 
 function App() {
-  // *** user profile and alert
-  // ** alert component
-  // gt search   [x]
-  // import AlertContext  [x]
-  // pull setAlert from AlertConterxt  [x]
-  // reaplce alert on handle submit with setAlert( with msg and error "please.." "error")  [x]
-  // checkout dev tool  [x]
-  // click go empty and check on  alert Provider  [x]
-  // create Alert.jsz in layout  [x]
-  // gt app.js  [x]
-  // imporrt Alert  [x]
-  // insert in above Routes [x]
-  // gt Alert.js  [x]
-  // rface import usecontext  [x]
-  // import AlertContext  [x]
-  // bring in alert from AlertContext using hook  []x
-  // jsx  [x]
-  // if alert is not null && (p.flex.items-start.md-4.space-x-2)  []
-// {alert.type === 'error' && ( inser SVG)}    []
-  // p.flex-1.text-base.font-semibold.leading-7.text-white
+// gt userItem.js []
+  // change link users to user   []
+  // click on visit profile on browser   []
+  //gt appjs   []
+  // insert  route componet user   []
+  // path user/:login   []
+  // check on browser   []
+  // gt Githubcontext   []
+  // add value user: state.user   []
+  // copy search user   []
+  // change to single user   []
+  // pass login   []
+  // setloading to true ??   []
+  // delete params   []
+  // change enpoint /users/${login}   []
+  // add after response   []
+  // if response.status =-- 404 then window.location = '/notfound'   []
+  // else {}  isert rest in   []
+  // reaplce items to data   []
+  // dispatch change users to user and item to data   []
+  // gt github reducer   []
+  // add case "GET_USER"   []
+  // return {...state,user: action.payload, loading: false}   []
+  // gt context   []
+  // add value of getUser   []
+  // gt user.jsx   []
+  // effect context ghcontext  import   []
+  // getuser, user from context   []
+  // useEffect take in getUser() pass params.login   []
+  // ** router provides match  
+  // import useParam  from react-router-dom   []
+  // create params = useParams()   []
+  // check devtool gitub provider   []
+  // check state   []
+  // insert user.login on jsx    []
+
 
   return (
     <GithubProvider>
