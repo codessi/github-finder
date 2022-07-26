@@ -54,12 +54,15 @@ export const GithubProvider = ({ children }) => {
     } else {
 
     const data = await response.json();
-    
-    dispatch({
+      // console.log(data)
+      
+      dispatch({
       type: "GET_USER",
       payload: data
     })
     }
+   
+      
 
   };
 
