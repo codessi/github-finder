@@ -13,33 +13,32 @@ import User from "./pages/User";
 
 function App() {
   
-// user.jsx
-  // sibleing to col-span-2, .w-full.rounded-lg.shadow-md.bg-base-100.stats wrap
-  // {location && ()}
-  // insert .stat wrap
-  // insert .stat-title.text-md  content Location
-  // sibliing .text-lg.stat-value  wrap {location}
-  // brower check
-  // copy location && .. paste
-  // change location to blog,  Website ,
-  // replace {location}, with a tag, href of {`https://${blog}`}
-  // add target & rel
-  //wrap {blog}
-  // test
-  // copy and twitter_username &&...
-  // right above last div, insert .w-full.py-5.mb-6.rounded-lg.shadow-md.bg-base-100 stats wrap
-  // insert .stat wrap
-  // insert .stat-figure.text-secondary wrap
-  // insert <FaUsers .text-3xl.md:text-5xl
-  // sibling to stat-figure, .stat-title.pr-5 wrap content followers
-  // sibling .stat-value.pr-5.text-3xl.md:text-4xl wrap {followers}
-// copy and paste
-  // following , FaUserFriends
-  // copy and paste
-  // Public Repos, FaCodepen
-  // copy paste
-  // Public Gist FaStore
-  
+// user.jsx  [x]
+  // sibleing to col-span-2, .w-full.rounded-lg.shadow-md.bg-base-100.stats wrap  [x]
+  // {location && ()}  [x]
+  // insert .stat wrap  [x]
+  // insert .stat-title.text-md  content Location  [x]
+  // sibliing .text-lg.stat-value  wrap {location}  [x]
+  // brower check  [x]
+  // copy location && .. paste  [x]
+  // change location to blog,  Website ,  [x]
+  // replace {location}, with a tag, href of {`https://${blog}`}  [x]
+  // add target & rel  [x]
+  //wrap {blog} [x]
+  // test  [x]
+  // copy and twitter_username &&...  [x]
+  // right above last div, insert .w-full.py-5.mb-6.rounded-lg.shadow-md.bg-base-100 stats wrap  [x]
+  // insert .stat wrap  []
+  // insert .stat-figure.text-secondary wrap  []
+  // insert <FaUsers .text-3xl.md:text-5xl  [x]
+  // sibling to stat-figure, .stat-title.pr-5 wrap content followers  [x]
+  // sibling .stat-value.pr-5.text-3xl.md:text-4xl wrap {followers}  [x]
+// copy and paste  [x]
+  // following , FaUserFriends  []
+  // copy and paste  []
+  // Public Repos, FaCodepen  []
+  // copy paste  []
+  // Public Gist FaStore  []
 
   
   
@@ -49,7 +48,7 @@ function App() {
     <GithubProvider>
       <AlertProvider>
         <Router>
-          <div className="flex flex-col justify-between h-screen  bg-gray-700 text-primary-content ">
+          <div className="flex flex-col justify-between h-screen ">
             <Navbar />
             <main className="container mx-auto px-3 pb-12">
               <Alert />
