@@ -13,36 +13,48 @@ import User from "./pages/User";
 
 function App() {
   
-// user.jsx  [x]
-  // sibleing to col-span-2, .w-full.rounded-lg.shadow-md.bg-base-100.stats wrap  [x]
-  // {location && ()}  [x]
-  // insert .stat wrap  [x]
-  // insert .stat-title.text-md  content Location  [x]
-  // sibliing .text-lg.stat-value  wrap {location}  [x]
-  // brower check  [x]
-  // copy location && .. paste  [x]
-  // change location to blog,  Website ,  [x]
-  // replace {location}, with a tag, href of {`https://${blog}`}  [x]
-  // add target & rel  [x]
-  //wrap {blog} [x]
-  // test  [x]
-  // copy and twitter_username &&...  [x]
-  // right above last div, insert .w-full.py-5.mb-6.rounded-lg.shadow-md.bg-base-100 stats wrap  [x]
-  // insert .stat wrap  []
-  // insert .stat-figure.text-secondary wrap  []
-  // insert <FaUsers .text-3xl.md:text-5xl  [x]
-  // sibling to stat-figure, .stat-title.pr-5 wrap content followers  [x]
-  // sibling .stat-value.pr-5.text-3xl.md:text-4xl wrap {followers}  [x]
-// copy and paste  [x]
-  // following , FaUserFriends  []
-  // copy and paste  []
-  // Public Repos, FaCodepen  []
-  // copy paste  []
-  // Public Gist FaStore  []
+  // gt gh context
+  // add repos for initial state array default
+// add value repos: state.repos
+  // copy search users
+  // paste under getsingleusers
+  // comment  get user repos
+  // change name to getUserRepos
+  // pass login delet text
+  // delete params
+  // change enpoint to /users/${login}/repos }
+  // payload data
+  // type: "GET_REPOS"
+  // add value getUserRepos,
+  // gt reducer
+  // add case
+  // return {...state, repos: action.payload, loading: false}
+  // create folder repos inside of component
+  // create RepoList.jsx rafce
+  // gt user jsx
+  // import
+  // bring in RepoList to Users.jsx above very last div
+  // bringin  getUserRepos & repos through useContext
+  // add on useEffect getUserRepos
+  // checkout on devtoll to see the repos
+  // passs prop as repos to <RepoList
+  // gt RepoList.jsx
+  // import Proptypes
+  // RepoList.propTypes...
+  // jsx
+  // .rounded-lg shadow-lg card bg-base-100 wrap
+  // insert card-body wrap
+  // h2.text-3xl.my-4.font-bold.card-title
+// content Top Repository
+  // sibliing {repos.map}
+  // h3 wrap {repo.name}
+  // gt context
+  // copy param q
+  // sort: 'created', 
+  // per_page: 10 
 
-  
-  
-  
+
+
   
   return (
     <GithubProvider>
