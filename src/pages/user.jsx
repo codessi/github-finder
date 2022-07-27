@@ -7,12 +7,13 @@ import Spinner from "../components/layout/Spinner";
 import RepoList from "../components/repos/RepoList";
 
 const User = () => {
-  const { getUser, user, loading, repos, getUserRepos } = useContext(GithubContext);
+  const { getUser, user, loading, repos, getUserRepos } =
+    useContext(GithubContext);
   const params = useParams();
 
   useEffect(() => {
     getUser(params.login);
-    getUserRepos(params.login)
+    getUserRepos(params.login);
   }, []);
   if (loading) {
     return <Spinner />;
@@ -20,33 +21,12 @@ const User = () => {
   if (user) {
     const {
       login,
-      id,
-      node_id,
       avatar_url,
-      gravatar_id,
-      url,
       html_url,
-      followers_url,
-      following_url,
-      gists_url,
-      gist_id,
-      starred_url,
-      owner,
-      subscriptions_url,
-      subscriptions,
-      organizations_url,
-      repos_url,
-      events_url,
-      privacy,
-      received_events_url,
-      received_events,
       type,
-      site_admin,
       name,
-      company,
       blog,
       location,
-      email,
       hireable,
       bio,
       twitter_username,
@@ -54,7 +34,6 @@ const User = () => {
       public_gists,
       followers,
       following,
-      created_at,
     } = user;
     return (
       <>
@@ -186,7 +165,7 @@ const User = () => {
               )}
             </div>
           </div>
-          <RepoList repos ={repos} />
+          <RepoList repos={repos} />
         </div>
       </>
     );
