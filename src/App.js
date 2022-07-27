@@ -12,50 +12,39 @@ import Alert from "./components/layout/Alert";
 import User from "./pages/User";
 
 function App() {
-
-// gt user.jsx [x]
-  //import icon from fa  facodepen store userfriends users [x]
-    //  Link spinner [x]
-  // bring loading from context [x]
-  // add conditional if loading under effect [x]
-  // return spinner [x]
-  // check spinner flash on browser [x]
-  // above loading  destructure user object { name, type.  14 items } [x]
-  // jsx  fragment <> [x]
-  // .w-full.mx-auto.lg:w-10/12 warp [x]
-  // insert .mb-4 wrap []
-  // insert Link to='/' class='btn btn-ghost' [x]
-  // content Back To Search [x]
-  // outsidd of .mb-4 div -sibling [x]
-  // .grid.grid-cols-1.xl:grid-col-3.lg:grid-cols-3.md:grid-cols-3.mb-8.md:gap-8 wrap [x]
-  // insert .custom-card-image.mb-6.md:mb-0 wrap [x]
-  // insert .rounded-lg.shadow-xl.card.image-full wrap [x]
-  // insert figure wrap insert img src avatar_url [x]
-  // check on browser to see pic faded. [x]
-  // sibling to figure,   .card-body.justify-end wrap [x]
-  // insert h2.card-title.mb-0 wrap [x]
-  // {name} [x]
-  // check browser  [x]
-  // gt css [x]
-  // .custom-card-image .card.image-full:before{ border-radius: 0.5rem; opacity: 0.45; }[x]
-  // sibling to .cutom-card-image, add .col-span-2 wrap  [x]
-  // insert mb-6 wrap  [x]
-  // insert h1.text-3xl.card-title wrap  [x]
-  // insert {name}  [x]
-  // sibling to {name}, ml-2.mr-1.badge.badge-success wrap  [x]
-  // {type}  [x]
-  // sibling to badge  []
-  // {hireable && ( )}  []
-  // mx-1 badge badge-info  []
-  // content Hireable  []
-  // sible to h1, p {bio}  []
-  // sible .mt-4.card-actions wrap  []
-  // insert a href={html_url} target='_blank" rel="noreferrer"  [x]
-  // check browser  [x]
-// add class on a tag, btn btn-outline [x]
-  // 
+  
+// user.jsx
+  // sibleing to col-span-2, .w-full.rounded-lg.shadow-md.bg-base-100.stats wrap
+  // {location && ()}
+  // insert .stat wrap
+  // insert .stat-title.text-md  content Location
+  // sibliing .text-lg.stat-value  wrap {location}
+  // brower check
+  // copy location && .. paste
+  // change location to blog,  Website ,
+  // replace {location}, with a tag, href of {`https://${blog}`}
+  // add target & rel
+  //wrap {blog}
+  // test
+  // copy and twitter_username &&...
+  // right above last div, insert .w-full.py-5.mb-6.rounded-lg.shadow-md.bg-base-100 stats wrap
+  // insert .stat wrap
+  // insert .stat-figure.text-secondary wrap
+  // insert <FaUsers .text-3xl.md:text-5xl
+  // sibling to stat-figure, .stat-title.pr-5 wrap content followers
+  // sibling .stat-value.pr-5.text-3xl.md:text-4xl wrap {followers}
+// copy and paste
+  // following , FaUserFriends
+  // copy and paste
+  // Public Repos, FaCodepen
+  // copy paste
+  // Public Gist FaStore
   
 
+  
+  
+  
+  
   return (
     <GithubProvider>
       <AlertProvider>
