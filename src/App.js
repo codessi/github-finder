@@ -13,45 +13,45 @@ import User from "./pages/User";
 
 function App() {
   
-  // gt gh context
-  // add repos for initial state array default
-// add value repos: state.repos
-  // copy search users
-  // paste under getsingleusers
-  // comment  get user repos
-  // change name to getUserRepos
-  // pass login delet text
-  // delete params
-  // change enpoint to /users/${login}/repos }
-  // payload data
-  // type: "GET_REPOS"
-  // add value getUserRepos,
-  // gt reducer
-  // add case
-  // return {...state, repos: action.payload, loading: false}
-  // create folder repos inside of component
-  // create RepoList.jsx rafce
-  // gt user jsx
-  // import
-  // bring in RepoList to Users.jsx above very last div
-  // bringin  getUserRepos & repos through useContext
-  // add on useEffect getUserRepos
-  // checkout on devtoll to see the repos
-  // passs prop as repos to <RepoList
-  // gt RepoList.jsx
-  // import Proptypes
-  // RepoList.propTypes...
-  // jsx
-  // .rounded-lg shadow-lg card bg-base-100 wrap
-  // insert card-body wrap
-  // h2.text-3xl.my-4.font-bold.card-title
-// content Top Repository
-  // sibliing {repos.map}
-  // h3 wrap {repo.name}
-  // gt context
-  // copy param q
-  // sort: 'created', 
-  // per_page: 10 
+  // gt gh context   [x]
+  // add repos for initial state array default   [x]
+// add value repos: state.repos   [x]
+  // copy search users   [x]
+  // paste under getsingleusers   [x]
+  // comment  get user repos   [x]
+  // change name to getUserRepos   [x]
+  // pass login delet text   [x]
+
+  // change enpoint to /users/${login}/repos }   [x]
+  // payload data   []
+  // type: "GET_REPOS"   [x]
+  // add value getUserRepos,   [x]
+  // gt reducer   [x]
+  // add case   [x]
+  // return {...state, repos: action.payload, loading: false}   [x]
+  // create folder repos inside of component   [x]
+  // create RepoList.jsx rafce   [x]
+  // gt user jsx   [x]
+  // import   [x]
+  // bring in RepoList to Users.jsx above very last div   [x]
+  // bringin  getUserRepos & repos through useContext   [x]
+  // add on useEffect getUserRepos   [x]
+  // checkout on devtoll to see the repos   [x]
+  // passs prop as repos to <RepoList   [x]
+  // gt RepoList.jsx   [x]
+  // import Proptypes   [x]
+  // RepoList.propTypes...   [x]
+  // jsx   [x]
+  // .rounded-lg shadow-lg card bg-base-100 wrap   [x]
+  // insert card-body wrap   []
+  // h2.text-3xl.my-4.font-bold.card-title   [x]
+// content Top Repository   [x]
+  // sibliing {repos.map}   []
+  // h3 wrap {repo.name}   [x]
+  // gt context   [x]
+  // copy param q   [x]
+  // sort: 'created',    [x]
+  // per_page: 10    [x]
 
 
 
